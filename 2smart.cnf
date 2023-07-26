@@ -1,0 +1,12 @@
+[mysql]
+default-character-set=utf8mb4
+
+[mysqld]
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci
+lower_case_table_names=1
+ssl-ca=/etc/mysql/ssl/certs/ca.pem
+ssl-cert=/etc/mysql/ssl/certs/server-cert.pem
+ssl-key=/etc/mysql/ssl/private/server-key.pem
+#require_secure_transport=ON
+#tls_version=TLSv1.1,TLSv1.2
